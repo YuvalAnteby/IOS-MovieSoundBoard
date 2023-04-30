@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03ABEB3DF4CBE0AAA1A84364 /* Pods_MovieSoundBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8661B6E02FDAC8B6A899A56 /* Pods_MovieSoundBoard.framework */; };
 		E198BBF627EF744500D6003E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BBF527EF744500D6003E /* AppDelegate.swift */; };
 		E198BBF827EF744500D6003E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BBF727EF744500D6003E /* SceneDelegate.swift */; };
 		E198BBFA27EF744500D6003E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BBF927EF744500D6003E /* ViewController.swift */; };
 		E198BBFD27EF744500D6003E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E198BBFB27EF744500D6003E /* Main.storyboard */; };
 		E198BBFF27EF744600D6003E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E198BBFE27EF744600D6003E /* Assets.xcassets */; };
 		E198BC0227EF744600D6003E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E198BC0027EF744600D6003E /* LaunchScreen.storyboard */; };
+		E198BC0A27EF7C5700D6003E /* MovieTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BC0927EF7C5700D6003E /* MovieTVC.swift */; };
+		E198BC0C27EF7CE600D6003E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E198BC0B27EF7CE600D6003E /* GoogleService-Info.plist */; };
+		E198BC1227F0966400D6003E /* MovieClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BC1127F0966400D6003E /* MovieClass.swift */; };
+		E198BC1427F0B4A800D6003E /* SoundTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BC1327F0B4A800D6003E /* SoundTVC.swift */; };
+		E198BC1627F0B5D500D6003E /* SoundClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BC1527F0B5D500D6003E /* SoundClass.swift */; };
+		E198BC1827F0B6BB00D6003E /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BC1727F0B6BB00D6003E /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DBA89C9278BA504DECB5318 /* Pods-MovieSoundBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieSoundBoard.debug.xcconfig"; path = "Target Support Files/Pods-MovieSoundBoard/Pods-MovieSoundBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		A8661B6E02FDAC8B6A899A56 /* Pods_MovieSoundBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieSoundBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D380D8712F352EB031858BD8 /* Pods-MovieSoundBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieSoundBoard.release.xcconfig"; path = "Target Support Files/Pods-MovieSoundBoard/Pods-MovieSoundBoard.release.xcconfig"; sourceTree = "<group>"; };
 		E198BBF227EF744500D6003E /* MovieSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E198BBF527EF744500D6003E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E198BBF727EF744500D6003E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,13 @@
 		E198BBFE27EF744600D6003E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E198BC0127EF744600D6003E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E198BC0327EF744600D6003E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E198BC0927EF7C5700D6003E /* MovieTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTVC.swift; sourceTree = "<group>"; };
+		E198BC0B27EF7CE600D6003E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E198BC0F27F08C2F00D6003E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E198BC1127F0966400D6003E /* MovieClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieClass.swift; sourceTree = "<group>"; };
+		E198BC1327F0B4A800D6003E /* SoundTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTVC.swift; sourceTree = "<group>"; };
+		E198BC1527F0B5D500D6003E /* SoundClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClass.swift; sourceTree = "<group>"; };
+		E198BC1727F0B6BB00D6003E /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03ABEB3DF4CBE0AAA1A84364 /* Pods_MovieSoundBoard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56C74EBD1181895D9A144935 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8661B6E02FDAC8B6A899A56 /* Pods_MovieSoundBoard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5C8171FDA90550CB08A68E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DBA89C9278BA504DECB5318 /* Pods-MovieSoundBoard.debug.xcconfig */,
+				D380D8712F352EB031858BD8 /* Pods-MovieSoundBoard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E198BBE927EF744500D6003E = {
 			isa = PBXGroup;
 			children = (
 				E198BBF427EF744500D6003E /* MovieSoundBoard */,
 				E198BBF327EF744500D6003E /* Products */,
+				C5C8171FDA90550CB08A68E4 /* Pods */,
+				56C74EBD1181895D9A144935 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,46 @@
 		E198BBF427EF744500D6003E /* MovieSoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				E198BC1B27F0B7A800D6003E /* TVC */,
+				E198BC1A27F0B79500D6003E /* ViewControllers */,
+				E198BC1927F0B78000D6003E /* Classes */,
 				E198BBF527EF744500D6003E /* AppDelegate.swift */,
 				E198BBF727EF744500D6003E /* SceneDelegate.swift */,
-				E198BBF927EF744500D6003E /* ViewController.swift */,
+				E198BC0F27F08C2F00D6003E /* GoogleService-Info.plist */,
 				E198BBFB27EF744500D6003E /* Main.storyboard */,
+				E198BC0B27EF7CE600D6003E /* GoogleService-Info.plist */,
 				E198BBFE27EF744600D6003E /* Assets.xcassets */,
 				E198BC0027EF744600D6003E /* LaunchScreen.storyboard */,
 				E198BC0327EF744600D6003E /* Info.plist */,
 			);
 			path = MovieSoundBoard;
+			sourceTree = "<group>";
+		};
+		E198BC1927F0B78000D6003E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E198BC1127F0966400D6003E /* MovieClass.swift */,
+				E198BC1527F0B5D500D6003E /* SoundClass.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E198BC1A27F0B79500D6003E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E198BBF927EF744500D6003E /* ViewController.swift */,
+				E198BC1727F0B6BB00D6003E /* SoundViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E198BC1B27F0B7A800D6003E /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				E198BC0927EF7C5700D6003E /* MovieTVC.swift */,
+				E198BC1327F0B4A800D6003E /* SoundTVC.swift */,
+			);
+			path = TVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E198BC0627EF744600D6003E /* Build configuration list for PBXNativeTarget "MovieSoundBoard" */;
 			buildPhases = (
+				6216C7F11B7B46EC7973B189 /* [CP] Check Pods Manifest.lock */,
 				E198BBEE27EF744500D6003E /* Sources */,
 				E198BBEF27EF744500D6003E /* Frameworks */,
 				E198BBF027EF744500D6003E /* Resources */,
+				CE28230977A2B44816BC6978 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E198BC0227EF744600D6003E /* LaunchScreen.storyboard in Resources */,
+				E198BC0C27EF7CE600D6003E /* GoogleService-Info.plist in Resources */,
 				E198BBFF27EF744600D6003E /* Assets.xcassets in Resources */,
 				E198BBFD27EF744500D6003E /* Main.storyboard in Resources */,
 			);
@@ -133,14 +204,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6216C7F11B7B46EC7973B189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovieSoundBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE28230977A2B44816BC6978 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieSoundBoard/Pods-MovieSoundBoard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieSoundBoard/Pods-MovieSoundBoard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieSoundBoard/Pods-MovieSoundBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E198BBEE27EF744500D6003E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E198BC1627F0B5D500D6003E /* SoundClass.swift in Sources */,
 				E198BBFA27EF744500D6003E /* ViewController.swift in Sources */,
 				E198BBF627EF744500D6003E /* AppDelegate.swift in Sources */,
+				E198BC0A27EF7C5700D6003E /* MovieTVC.swift in Sources */,
+				E198BC1827F0B6BB00D6003E /* SoundViewController.swift in Sources */,
+				E198BC1227F0966400D6003E /* MovieClass.swift in Sources */,
 				E198BBF827EF744500D6003E /* SceneDelegate.swift in Sources */,
+				E198BC1427F0B4A800D6003E /* SoundTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +321,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -264,6 +383,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -284,6 +404,7 @@
 		};
 		E198BC0727EF744600D6003E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBA89C9278BA504DECB5318 /* Pods-MovieSoundBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +416,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +434,7 @@
 		};
 		E198BC0827EF744600D6003E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D380D8712F352EB031858BD8 /* Pods-MovieSoundBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +446,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
