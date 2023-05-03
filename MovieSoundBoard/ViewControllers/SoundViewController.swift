@@ -12,11 +12,12 @@ import GoogleMobileAds
 
 class SoundViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, GADFullScreenContentDelegate, GADBannerViewDelegate{
     
+    //Default URL as an example, should be changed by fetching a new link or update the file to get the latest sounds and movies lists
     var soundJSON_Default = URL(string: "https://firebasestorage.googleapis.com/v0/b/series-304ee.appspot.com/o/MovieSoundboardIOS%2FSound-JSON-IOS.json?alt=media&token=e79d1c62-b704-40c7-801b-ad16bdb26b44")
     var movieJSON_Default = URL(string:"https://firebasestorage.googleapis.com/v0/b/series-304ee.appspot.com/o/MovieSoundboardIOS%2FMovies-JSON-IOS.json?alt=media&token=a9fadb38-9d6d-4fe2-a81a-d94aac4dbb1a")
-    
     var soundJSONurl:URL?
     var chosenStudio:String?
+    
     @IBOutlet weak var soundTableView: UITableView!
     var allSounds = [SoundClass]()
     var chosenSounds = [SoundClass]()
@@ -26,6 +27,10 @@ class SoundViewController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet weak var bannerView: GADBannerView!
     private var interstitial: GADInterstitialAdBeta?
     var count = 0
+    
+    //Admob ads id, used the ones from admob documentation. THIS NEEDS TO BE CHANGED TO EARN FROM ADMOB!
+    let bannerUnitId = "ca-app-pub-8435112864602169/4814232427"
+    let interUnitId = "ca-app-pub-8435112864602169/7057252389"
     
     ///Return amount of elements in chosen sounds array
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -96,14 +101,16 @@ class SoundViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     ///Setting up ads (banner & interstitial)
     private func setupAds() {
+        
         ///Bannner
-        bannerView.adUnitID = "ca-app-pub-8435112864602169/4814232427"
+        bannerView.adUnitID = bannerUnitId
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         bannerView.delegate = self
+        
         ///Interstitial
         let request = GADRequest()
-           GADInterstitialAdBeta.load(withAdUnitID:"ca-app-pub-8435112864602169/7057252389",
+           GADInterstitialAdBeta.load(withAdUnitID:interUnitId,
                                        request: request,
                              completionHandler: { [self] ad, error in
                                if let error = error {

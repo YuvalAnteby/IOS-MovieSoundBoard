@@ -15,7 +15,6 @@
 		E198BBFF27EF744600D6003E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E198BBFE27EF744600D6003E /* Assets.xcassets */; };
 		E198BC0227EF744600D6003E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E198BC0027EF744600D6003E /* LaunchScreen.storyboard */; };
 		E198BC0A27EF7C5700D6003E /* MovieTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BC0927EF7C5700D6003E /* MovieTVC.swift */; };
-		E198BC0C27EF7CE600D6003E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E198BC0B27EF7CE600D6003E /* GoogleService-Info.plist */; };
 		E198BC1227F0966400D6003E /* MovieClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BC1127F0966400D6003E /* MovieClass.swift */; };
 		E198BC1427F0B4A800D6003E /* SoundTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BC1327F0B4A800D6003E /* SoundTVC.swift */; };
 		E198BC1627F0B5D500D6003E /* SoundClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198BC1527F0B5D500D6003E /* SoundClass.swift */; };
@@ -35,8 +34,6 @@
 		E198BC0127EF744600D6003E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E198BC0327EF744600D6003E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E198BC0927EF7C5700D6003E /* MovieTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTVC.swift; sourceTree = "<group>"; };
-		E198BC0B27EF7CE600D6003E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E198BC0F27F08C2F00D6003E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E198BC1127F0966400D6003E /* MovieClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieClass.swift; sourceTree = "<group>"; };
 		E198BC1327F0B4A800D6003E /* SoundTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTVC.swift; sourceTree = "<group>"; };
 		E198BC1527F0B5D500D6003E /* SoundClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClass.swift; sourceTree = "<group>"; };
@@ -98,9 +95,7 @@
 				E198BC1927F0B78000D6003E /* Classes */,
 				E198BBF527EF744500D6003E /* AppDelegate.swift */,
 				E198BBF727EF744500D6003E /* SceneDelegate.swift */,
-				E198BC0F27F08C2F00D6003E /* GoogleService-Info.plist */,
 				E198BBFB27EF744500D6003E /* Main.storyboard */,
-				E198BC0B27EF7CE600D6003E /* GoogleService-Info.plist */,
 				E198BBFE27EF744600D6003E /* Assets.xcassets */,
 				E198BC0027EF744600D6003E /* LaunchScreen.storyboard */,
 				E198BC0327EF744600D6003E /* Info.plist */,
@@ -196,7 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E198BC0227EF744600D6003E /* LaunchScreen.storyboard in Resources */,
-				E198BC0C27EF7CE600D6003E /* GoogleService-Info.plist in Resources */,
 				E198BBFF27EF744600D6003E /* Assets.xcassets in Resources */,
 				E198BBFD27EF744500D6003E /* Main.storyboard in Resources */,
 			);
